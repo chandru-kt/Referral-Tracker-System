@@ -26,6 +26,14 @@ A full-stack web application that allows users to register, login, and manage re
 - Breakdown of referrals by status (Pending, Reviewed, Hired)
 
 ---
+![image](https://github.com/user-attachments/assets/b8edfd03-10b9-4f5d-8a6e-03f01ea2b56a)
+![image](https://github.com/user-attachments/assets/9f140912-34ea-4c17-ac54-11d75df09862)
+![image](https://github.com/user-attachments/assets/72e40af1-5bd1-4421-8ae1-eac3bdb04e6c)
+![image](https://github.com/user-attachments/assets/d7adb376-9b66-410b-b337-68bc55ed6091)
+![image](https://github.com/user-attachments/assets/ab9c52f9-19c2-49c7-b5e8-fce4091e1ced)
+![image](https://github.com/user-attachments/assets/f1ce883c-a424-4c06-b59c-bed2fc30a4d1)
+
+---
 
 ## 🛠️ Tech Stack
 
@@ -43,8 +51,7 @@ A full-stack web application that allows users to register, login, and manage re
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/yourusername/referral-tracker.git
-cd referral-tracker
+git clone https://github.com/chandru-kt/referral-tracker.git
 ```
 
 ### 2. Setup Environment Variables
@@ -53,7 +60,7 @@ Create a `.env` file in the root directory and add the following:
 
 ```env
 PORT=5000
-MONGO_URI=mongodb+srv://ktchandru1234:k.t.chandru1234@cluster0.afircsf.mongodb.net/mern
+MONGO_URI=mongodb+srv://username:password@cluster0.afircsf.mongodb.net/mern
 JWT_SECRET=sample_secret_key_for_demo_purposes
 ```
 
@@ -112,13 +119,18 @@ The backend runs at: `http://localhost:5000`
 > Add `Authorization: Bearer <token>` header to all protected routes.
 
 ---
+![image](https://github.com/user-attachments/assets/a515f444-41ed-4402-918f-979ae1a8ac40)
+![image](https://github.com/user-attachments/assets/03372437-538a-4da3-97a0-18d8fc154f19)
+![image](https://github.com/user-attachments/assets/92957882-e4bc-447f-b203-7447ccfc811b)
+![image](https://github.com/user-attachments/assets/32bca296-5e74-4057-a78d-a9bbda0d5092)
+![image](https://github.com/user-attachments/assets/e2374066-2483-44b9-8219-4eb6eaa1aad1)
+![image](https://github.com/user-attachments/assets/7769544e-d66b-4e0d-84fe-0248acaa0a81)
 
+---
 ## 📌 Assumptions & Limitations
 
-- Only PDF resumes are allowed for upload.
-- Resume files are stored on the local server (not a cloud service).
+- Resume files are stored on the MongoDB Atlas.
 - No email notifications or third-party integrations yet.
-- No admin/user role distinction — all logged-in users can manage candidates.
 
 ---
 
